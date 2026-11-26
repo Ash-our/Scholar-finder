@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# Preserve exact bytes for data artifacts with recorded SHA-256 provenance.
+*.jsonl -text whitespace=cr-at-eol
+*.geojson -text whitespace=cr-at-eol

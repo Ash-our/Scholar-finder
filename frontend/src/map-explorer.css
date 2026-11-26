@@ -1,0 +1,492 @@
+/* Map-led explorer: preserve the established Arabic type and purple identity. */
+.filter-options {
+  display: contents;
+}
+.mobile-filter-toggle {
+  display: none;
+}
+.is-exploring {
+  height: 100dvh;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.is-exploring .app-header {
+  height: 64px;
+  min-height: 64px;
+  padding: 0 20px;
+  gap: 18px;
+  flex: none;
+}
+.is-exploring .brand strong {
+  font-size: 22px;
+}
+.is-exploring .brand-mark {
+  transform: scale(0.85);
+  transform-origin: right center;
+}
+.is-exploring .app-header nav button {
+  font-size: 14px;
+  padding: 8px 13px;
+}
+.is-exploring .profile-button {
+  font-size: 14px;
+  min-height: 38px;
+  padding: 7px 13px;
+}
+.is-exploring .explore-page {
+  max-width: none;
+  width: 100%;
+  padding: 0;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.is-exploring .filters-bar {
+  flex: none;
+  grid-template-columns: minmax(230px, 1.6fr) repeat(4, minmax(130px, 1fr));
+  padding: 10px 16px;
+  gap: 9px;
+  margin: 0;
+  border-bottom: 1px solid var(--border);
+  background: white;
+}
+.is-exploring .search-field,
+.is-exploring .filter-field {
+  min-height: 51px;
+  padding: 5px 10px;
+  gap: 8px;
+  border-radius: 8px;
+}
+.is-exploring .search-field input {
+  font-size: 14px;
+}
+.is-exploring .filter-field > span {
+  font-size: 11px;
+  font-weight: 500;
+}
+.is-exploring .filter-field select {
+  font-size: 13px;
+}
+.is-exploring .filter-field > svg {
+  width: 19px;
+  height: 19px;
+}
+.is-exploring .discovery-notice {
+  flex: none;
+  padding: 5px 18px;
+  min-height: 33px;
+  margin: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #ede7f6;
+  gap: 4px 14px;
+  font-size: 11px;
+}
+.is-exploring .discovery-notice .text-button {
+  font-size: 11px;
+  padding: 2px 0;
+  margin-right: auto;
+}
+.is-exploring .active-filters {
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 6px 16px;
+  border-bottom: 1px solid var(--border);
+  background: #fcfbfe;
+  font-size: 12px;
+}
+.is-exploring .active-filters > span {
+  min-width: 0;
+  max-width: 100%;
+  padding: 2px 8px;
+}
+.is-exploring .active-filters > span > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.is-exploring .active-filters > span > button {
+  min-width: 28px;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.is-exploring .active-filters .clear-all-filters {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  margin-right: auto;
+  padding: 5px 8px;
+  color: #78678a;
+}
+.is-exploring .workspace {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  grid-template-columns: 390px minmax(0, 1fr);
+  gap: 0;
+  overflow: hidden;
+}
+.is-exploring .results-pane {
+  border: 0;
+  border-left: 1px solid var(--border);
+  border-radius: 0;
+}
+.is-exploring .results-heading {
+  padding: 13px 16px;
+  min-height: 76px;
+  background: #fff;
+}
+.is-exploring .results-heading h2 {
+  font-size: 18px;
+}
+.is-exploring .results-heading h2 > span {
+  font-size: 16px;
+}
+.is-exploring .results-heading p {
+  font-size: 11px;
+}
+.is-exploring .sort-select select {
+  font-size: 12px;
+  max-width: 116px;
+}
+.is-exploring .scholarship-row {
+  padding: 17px 16px;
+}
+.is-exploring .row-title {
+  gap: 9px;
+}
+.is-exploring .row-title h3 {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.is-exploring .award-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
+.is-exploring .award-icon svg {
+  width: 19px;
+  height: 19px;
+}
+.is-exploring .provider {
+  font-size: 11px;
+}
+.is-exploring .row-facts {
+  margin: 11px 0 0;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 12px;
+}
+.is-exploring .row-facts p {
+  font-size: 12px;
+}
+.is-exploring .row-facts svg {
+  width: 14px;
+  height: 14px;
+}
+.is-exploring .row-bottom {
+  margin-top: 12px;
+}
+.is-exploring .row-bottom .button {
+  font-size: 12px;
+  min-height: 33px;
+  padding: 5px 9px;
+}
+.is-exploring .status-label {
+  font-size: 10px;
+  padding: 4px 7px;
+}
+.is-exploring .ingestion-stamp {
+  font-size: 10px;
+  margin-top: 9px;
+  gap: 2px 9px;
+}
+.is-exploring .pagination {
+  padding: 10px 16px;
+}
+.is-exploring .pagination .button {
+  min-height: 32px;
+  font-size: 12px;
+  padding: 5px 11px;
+}
+.is-exploring .map-footnote {
+  font-size: 10px;
+  padding: 5px 12px;
+}
+.is-exploring .map-pane {
+  border: 0;
+  border-radius: 0;
+  height: 100%;
+}
+.is-exploring .country-map-toolbar {
+  pointer-events: none;
+  right: 12px;
+  left: auto;
+  max-width: calc(100% - 75px);
+  gap: 7px;
+}
+.is-exploring .country-map-heading {
+  flex: initial;
+  min-width: 0;
+  max-width: 320px;
+  padding: 8px 11px;
+  border-radius: 8px;
+}
+.is-exploring .country-map-heading strong {
+  font-size: 13px;
+}
+.is-exploring .country-map-heading span {
+  font-size: 11px;
+}
+.is-exploring .country-map-toolbar .floating-button {
+  pointer-events: auto;
+  min-height: 37px;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+.is-exploring .country-location-note {
+  pointer-events: none;
+  right: 12px;
+  left: auto;
+  max-width: min(460px, calc(100% - 24px));
+  font-size: 11px;
+  padding: 7px 10px;
+  bottom: 48px;
+}
+.is-exploring .map-legend {
+  font-size: 10px;
+  padding: 5px 8px;
+}
+.is-exploring .explore-footer {
+  flex: none;
+  min-height: 25px;
+  padding: 3px 16px;
+  font-size: 10px;
+  border-top: 1px solid var(--border);
+}
+
+@media (min-width: 1600px) {
+  .is-exploring .workspace {
+    grid-template-columns: 420px minmax(0, 1fr);
+  }
+}
+@media (max-width: 1100px) and (min-width: 781px) {
+  .is-exploring .workspace {
+    grid-template-columns: 345px minmax(0, 1fr);
+  }
+  .is-exploring .app-header {
+    padding: 0 14px;
+    gap: 10px;
+  }
+  .is-exploring .app-header nav button {
+    padding: 7px 9px;
+    font-size: 12px;
+  }
+  .is-exploring .brand strong {
+    font-size: 20px;
+  }
+  .is-exploring .filters-bar {
+    grid-template-columns: minmax(180px, 1.3fr) repeat(4, minmax(100px, 1fr));
+    padding: 8px 10px;
+    gap: 6px;
+  }
+  .is-exploring .filter-field > svg {
+    display: none;
+  }
+  .is-exploring .discovery-notice span {
+    display: none;
+  }
+}
+@media (max-width: 780px) {
+  .is-exploring {
+    min-height: 460px;
+  }
+  .is-exploring .app-header {
+    height: auto;
+    min-height: 106px;
+    padding: 10px 12px 7px;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+  .is-exploring .brand {
+    order: 0;
+  }
+  .is-exploring .brand strong {
+    font-size: 20px;
+  }
+  .is-exploring .brand-mark {
+    width: 37px;
+  }
+  .is-exploring .profile-button {
+    order: 1;
+    font-size: 12px;
+    min-height: 34px;
+    padding: 5px 9px;
+  }
+  .is-exploring .profile-button svg {
+    width: 16px;
+  }
+  .is-exploring .app-header nav {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 2px;
+  }
+  .is-exploring .app-header nav button {
+    font-size: 11px;
+    padding: 6px 7px;
+    white-space: nowrap;
+  }
+  .is-exploring .app-header nav button svg {
+    display: none;
+  }
+  .is-exploring .filters-bar {
+    position: relative;
+    padding: 8px 10px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+  .is-exploring .search-field {
+    grid-column: auto;
+    min-height: 41px;
+  }
+  .is-exploring .search-field input {
+    font-size: 13px;
+  }
+  .is-exploring .mobile-filter-toggle {
+    display: inline-flex;
+    font-size: 12px;
+    min-height: 41px;
+    padding: 7px 10px;
+  }
+  .is-exploring .filter-options {
+    display: none;
+  }
+  .is-exploring .filters-expanded .filter-options {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+  .is-exploring .filter-field {
+    min-height: 48px;
+  }
+  .is-exploring .discovery-notice {
+    padding: 4px 11px;
+    min-height: 30px;
+    gap: 6px;
+  }
+  .is-exploring .discovery-notice span {
+    display: none;
+  }
+  .is-exploring .discovery-notice strong,
+  .is-exploring .discovery-notice .text-button {
+    font-size: 10px;
+  }
+  .is-exploring .active-filters {
+    padding: 5px 10px;
+    font-size: 11px;
+    gap: 5px;
+    max-height: 91px;
+    overflow-y: auto;
+  }
+  .is-exploring .active-filters > span {
+    max-width: 100%;
+  }
+  .is-exploring .active-filters .clear-all-filters {
+    font-size: 11px;
+  }
+  .is-exploring .mobile-view-switch {
+    display: flex;
+    flex: none;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    height: 36px;
+  }
+  .is-exploring .mobile-view-switch button {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .is-exploring .workspace {
+    display: block;
+    position: relative;
+    min-height: 0;
+  }
+  .is-exploring .map-area,
+  .is-exploring .list-area {
+    height: 100%;
+    position: absolute;
+    inset: 0;
+  }
+  .is-exploring .mobile-pane-hidden {
+    display: none;
+  }
+  .is-exploring .map-pane {
+    min-height: 0;
+    height: 100%;
+  }
+  .is-exploring .country-map-toolbar {
+    top: 10px;
+    right: 10px;
+    left: 52px;
+    max-width: none;
+    gap: 6px;
+  }
+  .is-exploring .country-map-heading {
+    max-width: 100%;
+    padding: 7px 9px;
+  }
+  .is-exploring .country-map-heading strong {
+    font-size: 12px;
+  }
+  .is-exploring .country-map-heading span {
+    font-size: 10px;
+  }
+  .is-exploring .country-map-toolbar .floating-button {
+    font-size: 11px;
+    padding: 6px 8px;
+    min-height: 33px;
+  }
+  .is-exploring .country-map-toolbar .floating-button > span {
+    display: none;
+  }
+  .is-exploring .country-map-toolbar {
+    flex-wrap: nowrap;
+  }
+  .is-exploring .country-map-toolbar .floating-button {
+    width: 34px;
+    height: 34px;
+    flex: none;
+    justify-content: center;
+  }
+  .is-exploring .country-location-note {
+    font-size: 10px;
+    right: 8px;
+    max-width: calc(100% - 16px);
+    bottom: 51px;
+  }
+  .is-exploring .explore-footer {
+    padding: 4px 10px;
+    min-height: 24px;
+  }
+  .is-exploring .explore-footer > span:first-child {
+    display: none;
+  }
+  .is-exploring .explore-footer > span:last-child {
+    margin-right: auto;
+    font-size: 9px;
+  }
+  .is-exploring .results-pane {
+    border: 0;
+  }
+}

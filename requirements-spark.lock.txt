@@ -1,0 +1,5 @@
+# Tested Spark/ML additions; install with the core lock
+pyspark==4.0.3
+py4j==0.10.9.9
+numpy==2.5.5
+psutil==7.2.2

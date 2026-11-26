@@ -1,0 +1,10 @@
+# Country selection, visible ingestion, additional sources and public preview
+
+Authorized by the user's request to expand collection, select countries before universities, display addition times and deploy a small accessible website. Preserve Arabic RTL, React/Leaflet/FastAPI, real Kafka/Spark/MongoDB and truthful source uncertainty.
+
+1. Add server-owned `added_at`, `updated_at`, `first_streamed_at`, last event/mode metadata. Backfill legacy additions from real audit events, preserving immutable first-add timestamps on retries/updates. Expose bounded recent streaming activity with source/processing times and pipeline status; poll every3 seconds without generating artificial events.
+2. Add an attributed country-boundary asset and country-level counts independent of university coordinates. User's latest correction: world view shows country count tags only, with no polygon overlays. Clicking a country's tag selects it, draws only that country's purple outline and zooms to its shape. Render that country's known university/city placements, separate country-wide/unknown-university opportunities, and support returning to all countries/tags. Keep personalization/filter counts consistent.
+3. Inspect and implement additional public-source collection, retain actual provenance and unknown deadlines/eligibility. Enrich university coordinates only through supported ROR identity evidence; do not manufacture campus positions.
+4. Verify unit/integration tests, build, desktop/mobile country selection and real streaming event/timestamp changes. Publish a free temporary HTTPS preview of the actual FastAPI website unless the user selects permanent hosting. A temporary tunnel requires the local services/computer to remain on; do not claim it is an independent always-on deployment.
+
+Deployment assessment: Sites supports static/Cloudflare Worker output and cannot host this Python/Java/Mongo/Kafka stack. Use a free local HTTPS tunnel for the requested small preview; prepare a documented Compose deployment path for a future always-on host. No paid resources or accounts are created without their actual required information/authorization.

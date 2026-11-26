@@ -1,0 +1,220 @@
+{
+  "reviewed_at": "2026-11-26T17:53:31.745469+00:00",
+  "policy": "Named-host review issues, not generic/online awards. Some records are already mapped through other partners.",
+  "issues": [
+    {
+      "id": "finder-2164",
+      "name": "Netherlands Institute for Advanced Study in the Humanities and Social Sciences",
+      "reason": "no_compatible_city_coordinates",
+      "evidence_url": "https://nias.knaw.nl/fellowships/safe-haven-fellowship-for-scholars-at-risk",
+      "required_city": "Amsterdam"
+    },
+    {
+      "id": "finder-2805",
+      "name": "University of Konstanz",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://www.multidiverse.eu/scholarships"
+    },
+    {
+      "id": "finder-2885",
+      "name": "University of Exeter",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://mipdal.eu/admission/"
+    },
+    {
+      "id": "finder-2885",
+      "name": "Queen Mary University of London",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://mipdal.eu/admission/"
+    },
+    {
+      "id": "finder-2903",
+      "name": "Jožef Stefan International Postgraduate School",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://www.greenanomaster.eu/fees-and-scholarships"
+    },
+    {
+      "id": "finder-2910",
+      "name": "University of Ljubljana",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://upf.edu/web/emai"
+    },
+    {
+      "id": "finder-2948",
+      "name": "Institut national des sciences et techniques nucléaires",
+      "reason": "ambiguous_ror_identity",
+      "evidence_url": "https://em-master-fusion.org/programme"
+    },
+    {
+      "id": "finder-3635",
+      "name": "George Washington Library at George Washington’s Mount Vernon in Virginia",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.mountvernon.org/library/fellowships/fellows-program"
+    },
+    {
+      "id": "finder-4237",
+      "name": "Institute for Law & AI",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://scholarship-finder.fly.dev/s/4237"
+    },
+    {
+      "id": "finder-4756",
+      "name": "Baden-Wuerttemberg Cooperative State University",
+      "reason": "no_compatible_city_coordinates",
+      "evidence_url": "https://cs.cit.tum.de/fileadmin/w00cfj/seai/_my_direct_uploads/DAAD_Heilbronn_AI_Fellowships.pdf",
+      "required_city": "Heilbronn"
+    },
+    {
+      "id": "finder-4756",
+      "name": "Fraunhofer HNFIZ",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://cs.cit.tum.de/fileadmin/w00cfj/seai/_my_direct_uploads/DAAD_Heilbronn_AI_Fellowships.pdf"
+    },
+    {
+      "id": "finder-4756",
+      "name": "Technical University of Munich",
+      "reason": "no_compatible_city_coordinates",
+      "evidence_url": "https://cs.cit.tum.de/fileadmin/w00cfj/seai/_my_direct_uploads/DAAD_Heilbronn_AI_Fellowships.pdf",
+      "required_city": "Heilbronn"
+    },
+    {
+      "id": "finder-4925",
+      "name": "Palestinian American Research Center",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.parc-us-pal.org/fellowships-for-palestinians/"
+    },
+    {
+      "id": "finder-5001",
+      "name": "Universidad Andina Simón Bolívar",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://ccd-stede.eu"
+    },
+    {
+      "id": "finder-5001",
+      "name": "Université Joseph Ki-Zerbo",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://ccd-stede.eu"
+    },
+    {
+      "id": "finder-5409",
+      "name": "Rutgers University-Newark",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://sasn.rutgers.edu/gus-applying-gus",
+      "required_city": "Newark"
+    },
+    {
+      "id": "finder-5822",
+      "name": "VIVES Noord",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://vliruos.be/get-funded/bachelor-hotel-management"
+    },
+    {
+      "id": "finder-5823",
+      "name": "Thomas More campus Geel",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://vliruos.be/get-funded/bachelor-applied-computer-science"
+    },
+    {
+      "id": "finder-5976",
+      "name": "Cyprus International University",
+      "reason": "destination_country_conflict",
+      "evidence_url": "https://scholarship-finder.fly.dev/s/5976"
+    },
+    {
+      "id": "finder-933",
+      "name": "Unicaf University and partner universities",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://scholarship-finder.fly.dev/s/933"
+    },
+    {
+      "id": "iefa-3313",
+      "name": "IED Barcelona",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.iefa.org/scholarships/3313/IED_Barcelona_Scholarship_Contest"
+    },
+    {
+      "id": "iefa-3552",
+      "name": "Lite Regal International College",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.iefa.org/scholarships/3552/Medical_Internship_and_Shadowing_Program_for_High_School_Students_London_UK"
+    },
+    {
+      "id": "iefa-3657",
+      "name": "Istituto Europeo di Design Barcelona",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.iefa.org/scholarships/3657/Design_Talent_Scholarships_"
+    },
+    {
+      "id": "iefa-3659",
+      "name": "Rule of Law for Development Program (PROLAW)",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://www.iefa.org/scholarships/3659/Rule_of_Law_Scholarship"
+    },
+    {
+      "id": "iefa-3660",
+      "name": "Loyola University Chicago School of Law",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://www.iefa.org/scholarships/3660/Paul_D._Coverdell_Fellowship"
+    },
+    {
+      "id": "iefa-3673",
+      "name": "Building Biology Institute",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.iefa.org/scholarships/3673/Health_Safety_and_Education_Scholarship"
+    },
+    {
+      "id": "iefa-3702",
+      "name": "Luiss Business School in Amsterdam",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://www.iefa.org/scholarships/3702/_Six_Scholarship_for_exclusive_Space_Executive_Master_Programmes_"
+    },
+    {
+      "id": "iefa-3708",
+      "name": "Lite Regal Education & Int College",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://www.iefa.org/scholarships/3708/Summer_School_Scholarships_in_Cambridge_and_London_University"
+    },
+    {
+      "id": "iefa-3709",
+      "name": "Lite Regal Education and Int College",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://www.iefa.org/scholarships/3709/Business_and_Entrepreneurship_Summer_Course_Scholarship_Award_in_the_UK"
+    },
+    {
+      "id": "iefa-3712",
+      "name": "ZNRF University of Management Sciences",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.iefa.org/scholarships/3712/ZNRF_foundation_Scholarships_for_International_Students"
+    },
+    {
+      "id": "iefa-3717",
+      "name": "LCI School of Design and Visual Arts",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.iefa.org/scholarships/3717/LCI_Barcelona_Design_Scholarship"
+    },
+    {
+      "id": "iefa-3720",
+      "name": "LUISS Business School in Amsterdam",
+      "reason": "programme_campus_requires_review",
+      "evidence_url": "https://www.iefa.org/scholarships/3720/Master_Scholarships_in_Fashion_Food_and_Business"
+    },
+    {
+      "id": "iefa-3738",
+      "name": "Global Centre for Advanced Studies",
+      "reason": "no_exact_ror_name_or_reviewed_alias",
+      "evidence_url": "https://www.iefa.org/scholarships/3738/Impact_&_Innovation_Scholarship_Fund"
+    },
+    {
+      "id": "scholarpal-1d075bd8213e46ad0655825b",
+      "name": "Griffith University Scholarship For International Students With Tuition Fee Reduction Australia",
+      "reason": "source_identity_conflict",
+      "evidence_url": "https://scholarpal.io/scholarships/griffith-university-scholarship-2027-for-international-students-with-a-50-tuition-fee-reduction-in-australia"
+    },
+    {
+      "id": "scholarpal-22b11a29ca8639c211d245ec",
+      "name": "University of Hertfordshire",
+      "reason": "source_identity_conflict",
+      "evidence_url": "https://scholarpal.io/scholarships/university-of-hertfordshire-cost-aid-tuition-waivers-graduate-assistantships-awards-scholarships-and-fellowships-outstanding-thesis-award-outstanding-dissertatio"
+    }
+  ]
+}

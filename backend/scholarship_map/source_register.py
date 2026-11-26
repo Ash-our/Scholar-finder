@@ -1,0 +1,16 @@
+SOURCES = [
+    {"id":"scholars4dev","name":"Scholars4dev","url":"https://www.scholars4dev.com/","adapter":True,"note":"إعلانات منح فردية من صفحتين عامتين؛ تحفظ مواعيد المنح منفصلة عن مواعيد القبول"},
+    {"id": "official", "name": "برامج الجامعات الرسمية", "url": "https://www.intermaths.eu/?Itemid=450", "adapter": True, "note": "قراءة مباشرة لصفحات البرامج الرسمية؛ رابط كل جهة وأدلة التحقق في تفاصيل المنحة"},
+    {"id": "finder", "name": "مبادرة منح غزة", "url": "https://scholarship-finder.fly.dev/lite", "adapter": True},
+    {"id": "iefa", "name": "IEFA", "url": "https://www.iefa.org/scholarships", "adapter": True},
+    {"id": "scholarpal", "name": "ScholarPal", "url": "https://scholarpal.io/scholarships-for-palestinians", "adapter": True},
+    {"id": "daad", "name": "DAAD", "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/", "adapter": False},
+    {"id": "amideast", "name": "Amideast", "url": "https://www.amideast.org/west-bank/find-a-scholarship", "adapter": True},
+    {"id": "erasmus", "name": "إيراسموس موندوس", "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en", "adapter": False},
+    {"id": "turkiye", "name": "المنح التركية", "url": "https://www.turkiyeburslari.gov.tr/scholarshipsprograms", "adapter": False},
+    {"id": "chevening", "name": "تشيفنينغ فلسطين", "url": "https://www.chevening.org/scholarship/palestine/", "adapter": False},
+    {"id": "bseisu", "name": "مؤسسة بسيسو", "url": "https://www.bseisufoundation.org/scholarships", "adapter": False},
+    {"id": "goldsmiths", "name": "جامعة غولدسميث", "url": "https://www.gold.ac.uk/fees-funding/scholarships/palestinian-scholarship/", "adapter": False},
+    {"id": "mastersportal", "name": "Mastersportal", "url": "https://www.mastersportal.com/search/scholarships/master", "adapter": False, "note": "الوصول الآلي غير متاح في الفحص الأولي"},
+    {"id": "facebook", "name": "Amideast على Facebook", "url": "https://www.facebook.com/AMIDEASTWB/", "adapter": False, "note": "مرجع؛ نعتمد موقع Amideast الرسمي"},
+]

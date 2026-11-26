@@ -1,0 +1,126 @@
+[
+  {
+    "id": "official-intermaths-2027",
+    "source_id": "official",
+    "source_record_id": "intermaths-2027",
+    "title": "InterMaths Erasmus Mundus Scholarship 2027",
+    "title_ar": "منحة إيراسموس موندوس InterMaths في الرياضيات",
+    "provider": "University of L'Aquila",
+    "source_url": "https://www.intermaths.eu/?Itemid=450",
+    "cycle": "2027 intake",
+    "countries": [
+      "IT",
+      "DE",
+      "AT"
+    ],
+    "degrees": [
+      "master"
+    ],
+    "fields": [
+      "natural_sciences",
+      "engineering"
+    ],
+    "funding": "full",
+    "nationalities": [
+      "*"
+    ],
+    "deadline": "2027-02-17T13:00:00+01:00",
+    "deadline_timezone": "Europe/Rome",
+    "deadline_confidence": "confirmed",
+    "deadline_text": "17 February 2027, 13:00 CET",
+    "opens_at": "2026-11-06",
+    "description": "برنامج ماجستير مشترك في الرياضيات التطبيقية. تتوفر 18 منحة EMJM تشمل إعفاء الرسوم ومخصصات شهرية؛ اختيار الجامعة مرتبط بالمسار.",
+    "eligibility_text": "بكالوريوس في الرياضيات أو الفيزياء أو الهندسة أو مجال قريب بخلفية رياضية قوية، وإجادة الإنجليزية B2.",
+    "extra_requirements": [
+      "قد يلزم اختبار لغة رسمي لإجراءات التأشيرة حتى عند قبول إثبات تدريس باللغة الإنجليزية."
+    ],
+    "official_url": "https://www.intermaths.eu/?Itemid=450"
+  },
+  {
+    "id": "official-qmul-medical-jan2027",
+    "source_id": "official",
+    "source_record_id": "qmul-medical-jan2027",
+    "title": "Queen Mary Global Talent Scholarship - FMD January 2027",
+    "title_ar": "منحة المواهب العالمية في الطب بجامعة كوين ماري",
+    "provider": "Queen Mary University of London",
+    "source_url": "https://www.qmul.ac.uk/scholarships/items/global-talent-scholarship-pgt-jan2027-fmd.html",
+    "cycle": "January 2027 intake",
+    "countries": [
+      "GB"
+    ],
+    "degrees": [
+      "master"
+    ],
+    "fields": [
+      "medicine"
+    ],
+    "funding": "tuition",
+    "nationalities": [
+      "*"
+    ],
+    "deadline_text": "طلبات مستمرة حتى توزيع المنح المتاحة",
+    "description": "خصم 5,000 جنيه إسترليني من الرسوم لبرامج ماجستير طبية محددة تبدأ في يناير 2027.",
+    "eligibility_text": "عرض قبول في أحد البرامج المؤهلة، وتصنيف رسوم دولية، ودرجة تعادل 2:1 بريطانية.",
+    "extra_requirements": [
+      "عدد المنح محدود؛ تحقق من بقاء مقاعد ومن شمول البرنامج قبل الاعتماد على التمويل."
+    ],
+    "official_url": "https://www.qmul.ac.uk/scholarships/items/global-talent-scholarship-pgt-jan2027-fmd.html"
+  },
+  {
+    "id": "official-westminster-jan2027",
+    "source_id": "official",
+    "source_record_id": "westminster-jan2027",
+    "title": "Westminster International Postgraduate Excellence Award January 2027",
+    "title_ar": "منحة التميز الدولية للماجستير في جامعة وستمنستر",
+    "provider": "University of Westminster",
+    "source_url": "https://www.westminster.ac.uk/study/fees-and-funding/scholarships/international-postgraduate-excellence-award-january-2027",
+    "cycle": "January 2027 intake",
+    "countries": [
+      "GB"
+    ],
+    "degrees": [
+      "master"
+    ],
+    "fields": [
+      "all"
+    ],
+    "funding": "tuition",
+    "deadline": "2026-11-30",
+    "deadline_confidence": "confirmed",
+    "deadline_timezone": "Europe/London",
+    "deadline_text": "30 November 2026",
+    "description": "مساهمة في رسوم ماجستير بدوام كامل يبدأ في يناير 2027؛ قيمة أساسية 3,000 جنيه وفق شروط البرنامج.",
+    "eligibility_text": "تصنيف رسوم دولية وعرض قبول للماجستير ومؤهل يعادل Good 2.1.",
+    "extra_requirements": [
+      "توجد برامج مستثناة وشروط تمنع الجمع مع خصومات أخرى؛ مبلغ المنحة لا يغطي وديعة التأشيرة."
+    ],
+    "official_url": "https://www.westminster.ac.uk/study/fees-and-funding/scholarships/international-postgraduate-excellence-award-january-2027"
+  },
+  {
+    "id": "official-reading-masters-2027",
+    "source_id": "official",
+    "source_record_id": "reading-masters-2027",
+    "title": "University of Reading Master's Excellence Scholarship 2027/28",
+    "title_ar": "منحة التميز للماجستير في جامعة ريدنغ 2027/2028",
+    "provider": "University of Reading",
+    "source_url": "https://www.reading.ac.uk/ready-to-study/study/fees-and-funding/scholarships/international-scholarships",
+    "cycle": "2027/28 intake",
+    "countries": [
+      "GB"
+    ],
+    "degrees": [
+      "master"
+    ],
+    "fields": [
+      "all"
+    ],
+    "funding": "tuition",
+    "deadline_text": "ترشيح تلقائي للطلبة المؤهلين؛ دون طلب منحة منفصل",
+    "description": "تخفيض رسوم بين 4,000 و10,000 جنيه إسترليني للطلبة الدوليين وفق التحصيل الأكاديمي.",
+    "eligibility_text": "طلبة ماجستير مؤهلون من فئة الرسوم الدولية؛ النظر في المنحة تلقائي وفق شروط الجامعة.",
+    "extra_requirements": [
+      "راجع صفحة برنامجك لشروط القبول ومواعيده؛ لا تعني المنحة إعفاءً كاملًا أو ضمان الحصول عليها."
+    ],
+    "official_url": "https://www.reading.ac.uk/ready-to-study/study/fees-and-funding/scholarships/international-scholarships"
+  }
+]

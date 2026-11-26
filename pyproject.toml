@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scholarship-map"
+version = "0.1.0"
+description = "Arabic scholarship discovery with Kafka, Spark, MongoDB and Leaflet"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "fastapi>=0.120,<1", "uvicorn[standard]>=0.34,<1", "pydantic>=2.12,<3",
+  "pydantic-settings>=2.10,<3", "pymongo>=4.15,<5", "httpx>=0.28,<1",
+  "beautifulsoup4>=4.14,<5", "kafka-python>=2.2,<3", "pycountry>=24.6,<27",
+  "python-dateutil>=2.9,<3", "tzdata>=2025.2"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<10", "ruff>=0.14,<1"]
+spark = ["pyspark==4.0.3", "numpy>=2.2,<3", "psutil>=7,<9"]
+
+[project.scripts]
+scholarship-map = "scholarship_map.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["backend"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requires real services", "spark: starts a real Spark JVM"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"

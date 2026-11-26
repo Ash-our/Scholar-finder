@@ -1,0 +1,34 @@
+{
+  "snapshot_at": "2026-11-26T17:59:57.130785+00:00",
+  "records": 359,
+  "by_source": {
+    "amideast": 4,
+    "finder": 224,
+    "iefa": 80,
+    "official": 4,
+    "scholarpal": 28,
+    "scholars4dev": 19
+  },
+  "by_status": {
+    "upcoming": 1,
+    "closed": 14,
+    "unverified": 331,
+    "open": 13
+  },
+  "discovery_listings": 345,
+  "discovery_mapped_countries": 74,
+  "distinct_destination_countries_including_closed": 90,
+  "location_coverage": {
+    "records_with_institution_locations": 221,
+    "institution_placements": 355,
+    "unique_institution_locations": 239,
+    "distinct_city_coordinates": 191
+  },
+  "sha256": "30bb7832677c737e7ab1abced34117477a2d90b042c7d65254efbae5fb56d058",
+  "stream_status": {
+    "processed_events": 769,
+    "imported_events": 52,
+    "invalid_events": 0
+  },
+  "note": "Real attributed catalogue snapshot. ROR locations are city-level, not campus assertions; generic/online/conflicting hosts remain unresolved. First-add timestamps from actual server history. Original MinHash benchmark frozen at50 source records."
+}

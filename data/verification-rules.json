@@ -1,0 +1,279 @@
+{
+  "finder-5138": {
+    "url": "https://yadias.uni.lu/call-information/",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "University of Luxembourg YADIAS Doctoral Fellowships 2027 (Young Academics Doctoral fellows IAS)",
+      "deadline": [
+        "2026-11-30T14:00:00+01:00",
+        "2026-11-30"
+      ]
+    },
+    "patterns": [
+      "YADIAS",
+      "01 September 2026",
+      "30 November 2026",
+      "2pm CET"
+    ],
+    "updates": {},
+    "note": "الموعد 30 نوفمبر 2026 الساعة 14:00 بتوقيت لوكسمبورغ؛ يلزم مؤهل مناسب للدكتوراه.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-3951": {
+    "url": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "Yenching Fellowship - Yenching Academy of Peking University (Master in China Studies, 2027 intake)",
+      "deadline": [
+        "2026-11-30T09:00:00+08:00",
+        "2026-11-30"
+      ]
+    },
+    "patterns": [
+      "International Candidates",
+      "2027 cohort",
+      "November 30, 2026",
+      "9:00 am Beijing time"
+    ],
+    "updates": {},
+    "note": "مسار المتقدمين الدوليين فقط؛ المسارات الصينية لها موعد منفصل.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-4146": {
+    "url": "https://cure.uni-saarland.de/en/fellows/call-for-applications/",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "KHK CURE Fellowships 2027/2028",
+      "deadline": [
+        "2026-11-30"
+      ]
+    },
+    "patterns": [
+      "CURE",
+      "October 2027",
+      "Applications must be submitted by 30 November 2026",
+      "invite applications"
+    ],
+    "updates": {
+      "title_ar": "زمالات CURE البحثية في جامعة سارلاند",
+      "degrees": [
+        "postdoc",
+        "research"
+      ]
+    },
+    "note": "يشترط إكمال الدكتوراه والعمل الأكاديمي؛ ليست منحة لدراسة الدكتوراه.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-4244": {
+    "url": "https://zzf-potsdam.de/chancen/stellenangebote/leibniz-summer-fellowships-field-german-andor-european-including-eastern",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "Leibniz Summer Fellowships",
+      "deadline": [
+        "2026-11-30"
+      ]
+    },
+    "patterns": [
+      "Leibniz Summer Fellowships",
+      "April and October 2027",
+      "application deadline is November 30, 2026",
+      "pleased to invite applications"
+    ],
+    "updates": {
+      "title_ar": "زمالات لايبنتز الصيفية للبحث في التاريخ"
+    },
+    "note": "زمالة بحثية قصيرة؛ تحقق من المؤهل والخبرة المطلوبة.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-4001": {
+    "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/index.html",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "Hong Kong PhD Fellowship Scheme (HKPFS) 2027/28",
+      "deadline": [
+        "2026-12-01",
+        "2026-12-01T12:00:00+08:00"
+      ]
+    },
+    "patterns": [
+      "Hong Kong PhD",
+      "HKPFS 2027/28 calls for applications from 1 September 2026 to 1 December 2026",
+      "12:00 noon, Hong Kong Time"
+    ],
+    "updates": {
+      "title_ar": "برنامج زمالة الدكتوراه في هونغ كونغ 2027/2028",
+      "deadline": "2026-12-01T12:00:00+08:00",
+      "deadline_timezone": "Asia/Hong_Kong",
+      "deadline_text": "1 December 2026, 12:00 noon Hong Kong time"
+    },
+    "note": "يلزم طلب أولي للزمالة وطلبات منفصلة للجامعات المشاركة.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-2850": {
+    "url": "https://www.theatre-spaces.eu/",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "Theatre SPACEs Erasmus Mundus scholarship — Master in Applied & Community Theatre",
+      "deadline": [
+        "2026-12-01"
+      ]
+    },
+    "patterns": [
+      "Theatre SPACEs",
+      "Applications for the 2027 intake are now open",
+      "deadline is 1 December 2026",
+      "any country in the world"
+    ],
+    "updates": {
+      "title_ar": "منحة إيراسموس موندوس Theatre SPACEs في المسرح التطبيقي",
+      "nationalities": [
+        "*"
+      ]
+    },
+    "note": "برنامج مشترك؛ اختيار الجامعة والتنقل مرتبط بمسار البرنامج.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-4925": {
+    "url": "https://www.parc-us-pal.org/fellowships-for-palestinians/",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "PARC Fellowships for Palestinian Scholars Conducting Humanities and Social Science Field-Based Research on Palestine 2027-2028",
+      "deadline": [
+        "2026-12-05"
+      ]
+    },
+    "patterns": [
+      "2027-2028 PARC",
+      "Applications due December 5, 2026",
+      "Applicants must be Palestinian"
+    ],
+    "updates": {
+      "title_ar": "زمالات PARC البحثية للباحثين الفلسطينيين",
+      "nationalities": [
+        "PS"
+      ],
+      "degrees": [
+        "phd",
+        "research",
+        "postdoc"
+      ]
+    },
+    "note": "يشترط أن يكون المتقدم طالب دكتوراه أو باحثًا حاصلًا عليها؛ بحث ميداني في المناطق والتخصصات المحددة.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-3518": {
+    "url": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "ETH Zurich Excellence Scholarship & Opportunity Programme (ESOP)",
+      "deadline": [
+        "2026-11-30",
+        "2026-11-30T11:59:00+01:00"
+      ]
+    },
+    "patterns": [
+      "Excellence Scholarship",
+      "window is open Nov, 1 - Nov, 30 2026",
+      "11.59h, MEZ",
+      "HS27"
+    ],
+    "updates": {
+      "title_ar": "منحة التميز والفرص ESOP في ETH زيورخ",
+      "deadline": "2026-11-30T11:59:00+01:00",
+      "deadline_timezone": "Europe/Zurich",
+      "deadline_text": "30 November 2026, 11:59 AM CET (see official admission dates)"
+    },
+    "note": "إغلاق الطلب 11:59 صباحًا وفق صفحة مواعيد القبول الرسمية؛ شرط الأداء ضمن أعلى 10% من البكالوريوس.",
+    "open_evidence": "accepting_applications"
+  },
+  "finder-4542": {
+    "url": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/financing-your-studies/scholarships/maastricht-university-nl-high",
+    "match": {
+      "cycle": "2026 application cycle",
+      "title": "Maastricht University NL-High Potential Scholarship",
+      "deadline": [
+        "2026-12-10"
+      ]
+    },
+    "patterns": [
+      "NL-High Potential",
+      "Applications are open from 1 October 2026 until 1 February 2027",
+      "before 10 December 2026",
+      "GPA of 7.5 out of 10"
+    ],
+    "updates": {
+      "title_ar": "منحة جامعة ماستريخت NL للتميز",
+      "minimum_gpa": 7.5,
+      "gpa_scale": 10,
+      "deadline_text": "Programme admission before 10 December 2026; scholarship application by 1 February 2027, 23:59 CET"
+    },
+    "note": "الموعد المعروض هو شرط تقديم ملف القبول أولًا؛ طلب المنحة لاحقًا حتى 1 فبراير. قيود الجنسية والإقامة والعمر في المصدر.",
+    "open_evidence": "accepting_applications"
+  },
+  "official-intermaths-2027": {
+    "url": "https://www.intermaths.eu/?Itemid=450",
+    "match": {
+      "cycle": "2027 intake",
+      "title": "InterMaths Erasmus Mundus Scholarship 2027",
+      "deadline": "2027-02-17T13:00:00+01:00"
+    },
+    "patterns": [
+      "2027 call for applications is open",
+      "17 February 2027 by 1 pm CET",
+      "any nationality",
+      "18 EMJM scholarships"
+    ],
+    "open_evidence": "accepting_applications",
+    "note": "تحقق من القبول والشروط الكاملة وتوفر التمويل في الصفحة الرسمية.",
+    "review_until": "2027-03-01T00:00:00+00:00"
+  },
+  "official-qmul-medical-jan2027": {
+    "url": "https://www.qmul.ac.uk/scholarships/items/global-talent-scholarship-pgt-jan2027-fmd.html",
+    "match": {
+      "cycle": "January 2027 intake",
+      "title": "Queen Mary Global Talent Scholarship - FMD January 2027",
+      "deadline": null
+    },
+    "patterns": [
+      "January 2027",
+      "rolling basis",
+      "allocated",
+      "£5,000"
+    ],
+    "open_evidence": "rolling",
+    "note": "تحقق من القبول والشروط الكاملة وتوفر التمويل في الصفحة الرسمية.",
+    "review_until": "2027-01-01T00:00:00+00:00"
+  },
+  "official-westminster-jan2027": {
+    "url": "https://www.westminster.ac.uk/study/fees-and-funding/scholarships/international-postgraduate-excellence-award-january-2027",
+    "match": {
+      "cycle": "January 2027 intake",
+      "title": "Westminster International Postgraduate Excellence Award January 2027",
+      "deadline": "2026-11-30"
+    },
+    "patterns": [
+      "January 2027",
+      "Deadline 30 November 2026",
+      "Apply now"
+    ],
+    "open_evidence": "accepting_applications",
+    "note": "تحقق من القبول والشروط الكاملة وتوفر التمويل في الصفحة الرسمية.",
+    "review_until": "2027-03-01T00:00:00+00:00"
+  },
+  "official-reading-masters-2027": {
+    "url": "https://www.reading.ac.uk/ready-to-study/study/fees-and-funding/scholarships/international-scholarships",
+    "match": {
+      "cycle": "2027/28 intake",
+      "title": "University of Reading Master's Excellence Scholarship 2027/28",
+      "deadline": null
+    },
+    "patterns": [
+      "Master.s Excellence Scholarship 2027/28",
+      "No deadline",
+      "automatically considered"
+    ],
+    "open_evidence": "rolling",
+    "note": "تحقق من القبول والشروط الكاملة وتوفر التمويل في الصفحة الرسمية.",
+    "review_until": "2027-01-01T00:00:00+00:00"
+  }
+}

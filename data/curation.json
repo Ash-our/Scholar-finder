@@ -1,0 +1,48 @@
+{
+  "finder-5138": {
+    "_match": {
+      "cycle": "2026 application cycle",
+      "title": "University of Luxembourg YADIAS Doctoral Fellowships 2027 (Young Academics Doctoral fellows IAS)",
+      "deadline": ["2026-11-30", "2026-11-30T14:00:00+01:00"]
+    },
+    "title_ar": "زمالات YADIAS للدكتوراه في جامعة لوكسمبورغ",
+    "provider": "University of Luxembourg",
+    "cycle": "2026 application cycle",
+    "nationalities": ["*"],
+    "opens_at": "2026-09-01",
+    "deadline": "2026-11-30T14:00:00+01:00",
+    "deadline_timezone": "Europe/Luxembourg",
+    "deadline_text": "30 November 2026 @ 2pm CET — official call agenda",
+    "deadline_confidence": "confirmed",
+    "reported_status": "open",
+    "open_evidence": "date_window",
+    "official_verified_at": "2026-11-24T00:00:00Z",
+    "identity_resolved": true,
+    "official_url": "https://yadias.uni.lu/call-information/",
+    "verification_note": "تمت مراجعة النسخة المستخرجة من صفحة البرنامج الرسمية بتاريخ 24 نوفمبر 2026. تحدد الصفحة فتح الدورة في 1 سبتمبر وإغلاقها في 30 نوفمبر 2026، وتتطلب مؤهل ماجستير مناسبًا للدكتوراه. تاريخ الدليل محفوظ ولا يُحدّث بمجرد إعادة جمع الإعلان.",
+    "extra_requirements": ["مؤهل ماجستير معترف به يؤهل للدكتوراه", "عدم بدء إجراءات التسجيل لدكتوراه في جامعة لوكسمبورغ قبل موعد الإغلاق", "تحقق من متطلبات المقترح والمشرف في الصفحة الرسمية"]
+  },
+  "finder-3951": {
+    "_match": {
+      "cycle": "2026 application cycle",
+      "title": "Yenching Fellowship - Yenching Academy of Peking University (Master in China Studies, 2027 intake)",
+      "deadline": ["2026-11-30", "2026-11-30T09:00:00+08:00"]
+    },
+    "title_ar": "منحة أكاديمية ينتشينغ بجامعة بكين للمتقدمين الدوليين",
+    "cycle": "2026 application cycle",
+    "nationalities": ["*"],
+    "excluded_nationalities": ["CN", "HK", "MO", "TW"],
+    "opens_at": "2026-09-01",
+    "deadline": "2026-11-30T09:00:00+08:00",
+    "deadline_timezone": "Asia/Shanghai",
+    "deadline_text": "International candidates: November 30, 2026, 9:00 am Beijing time",
+    "deadline_confidence": "confirmed",
+    "reported_status": "open",
+    "open_evidence": "date_window",
+    "official_verified_at": "2026-11-24T00:00:00Z",
+    "identity_resolved": true,
+    "official_url": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+    "verification_note": "تمت مراجعة محتوى صفحة القبول الرسمية المستخرج بتاريخ 24 نوفمبر 2026. هذا السجل يخص مسار المتقدمين الدوليين؛ للمتقدمين من الصين وهونغ كونغ وماكاو وتايوان مسارات ومواعيد منفصلة. لا يُعمم موعد هذا المسار على الجميع.",
+    "extra_requirements": ["متطلبات اللغة والمؤهل في صفحة القبول الرسمية", "قد يلزم ترشيح داخلي لخريجي وطلاب الجامعات الشريكة", "هذا السجل لمسار المتقدمين الدوليين فقط"]
+  }
+}

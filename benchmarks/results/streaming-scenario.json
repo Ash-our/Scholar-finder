@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "mode": "explicit_replay_integration_scenario",
+  "run_id": "226cca8644",
+  "database": "scholarshipmap_scenario_226cca8644_demo",
+  "topic": "scholarships.scenario.226cca8644",
+  "spark_version": "4.0.3",
+  "producer_to_storage_and_api_seconds": 12.846,
+  "catalogue_records": 2,
+  "unique_events": 3,
+  "invalid_records": 1,
+  "rows_dropped_by_watermark": 1,
+  "checks": [
+    "real Kafka input",
+    "duplicate catalogue idempotency",
+    "invalid record quarantine",
+    "updated record preserved",
+    "late record stored in catalogue",
+    "late metrics excluded",
+    "real MongoDB sink",
+    "public FastAPI read"
+  ],
+  "completed_at": "2026-11-26T14:29:00.213905+00:00"
+}

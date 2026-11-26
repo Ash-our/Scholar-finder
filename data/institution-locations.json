@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-26",
+  "coordinate_policy": "ROR v2 city coordinates only; no campus inference; specified destination countries constrain every host.",
+  "aliases": {
+    "UGent": {
+      "name": "Ghent University",
+      "evidence_url": "https://www.oceansandlakes.be/"
+    },
+    "VUB": {
+      "name": "Vrije Universiteit Brussel",
+      "evidence_url": "https://www.oceansandlakes.be/"
+    },
+    "UAntwerpen": {
+      "name": "University of Antwerp",
+      "evidence_url": "https://www.oceansandlakes.be/"
+    },
+    "UHasselt": {
+      "name": "Hasselt University",
+      "evidence_url": "https://www.uhasselt.be/Master-in-Transportation-Sciences"
+    },
+    "KU Leuven": {
+      "name": "KU Leuven",
+      "evidence_url": "https://www.kuleuven.be/english/"
+    },
+    "EPFL": {
+      "name": "École Polytechnique Fédérale de Lausanne",
+      "evidence_url": "https://www.epfl.ch/education/master/master-excellence-fellowships/"
+    },
+    "KAUST": {
+      "name": "King Abdullah University of Science and Technology",
+      "evidence_url": "https://www.kaust.edu.sa/"
+    },
+    "NUS": {
+      "name": "National University of Singapore",
+      "evidence_url": "https://www.nus.edu.sg/"
+    }
+  },
+  "records": {
+    "finder-1153": {
+      "match": {
+        "provider": "University of Pisa; Polytechnic University of Catalunya; University of Silesia in Katowice; University of Lille",
+        "title": "Erasmus Mundus Joint Master scholarship — BIOPHAM (Bio & Pharmaceutical materials science)"
+      },
+      "evidence_url": "https://scholarship-finder.fly.dev/s/1153",
+      "hosts": [
+        "University of Pisa",
+        "Universitat Politècnica de Catalunya",
+        "University of Silesia in Katowice",
+        "University of Lille"
+      ]
+    },
+    "finder-1178": {
+      "match": {
+        "provider": "Charité – Universitätsmedizin Berlin (Germany); Mednarodna podiplomska šola Jožefa Stefana (Slovenia); Université de Caen Normandie (France)",
+        "title": "Erasmus Mundus scholarship — SPACEMED Joint Master Degree on Physiology and Medicine of Humans in Space and Extreme Environments"
+      },
+      "evidence_url": "https://space-med.eu",
+      "hosts": [
+        "Charité – Universitätsmedizin Berlin",
+        "Jožef Stefan International Postgraduate School",
+        "Université de Caen Normandie"
+      ]
+    },
+    "finder-1257": {
+      "match": {
+        "provider": "Universidade Lusófona (Lisbon, Portugal); National Film School (KIMO) at the Lithuanian Academy of Music and Theatre (Vilnius, Lithuania); LUCA - School of Arts (Brussels, Belgium)",
+        "title": "DocNomads PLUS Erasmus Mundus Joint Master in Documentary Filmmaking"
+      },
+      "evidence_url": "https://scholarship-finder.fly.dev/s/1257",
+      "hosts": [
+        "Universidade Lusófona",
+        "Lithuanian Academy of Music and Theatre",
+        "LUCA School of Arts"
+      ]
+    },
+    "finder-1891": {
+      "match": {
+        "provider": "Aalto University; Grenoble INP-UGA; Tecnico Lisboa; TU Braunschweig; UPC BarcelonaTech",
+        "title": "CoDaS Erasmus Mundus Joint Master in Communications Engineering and Data Science (Autumn 2027 intake)"
+      },
+      "evidence_url": "https://www.unite-codas-master.eu/admission.html",
+      "hosts": [
+        "Aalto University",
+        "Grenoble Institute of Technology",
+        "Instituto Superior Técnico",
+        "Technische Universität Braunschweig",
+        "Universitat Politècnica de Catalunya"
+      ]
+    },
+    "finder-2164": {
+      "match": {
+        "provider": "Netherlands Institute for Advanced Study (NIAS-KNAW)",
+        "title": "NIAS Safe Haven Fellowship for Scholars at Risk (first semester 2027-2028)"
+      },
+      "evidence_url": "https://nias.knaw.nl/fellowships/safe-haven-fellowship-for-scholars-at-risk",
+      "hosts": [
+        {
+          "name": "Netherlands Institute for Advanced Study in the Humanities and Social Sciences",
+          "city": "Amsterdam"
+        }
+      ],
+      "additional_evidence_url": "https://nias.knaw.nl/contact/",
+      "note": "The saved fellowship source explicitly places the fellowship in Amsterdam, confirmed by the current official NIAS visiting address. ROR 04z3wz653 still returns Wassenaar; those coordinates cannot represent this programme. Leave unresolved until ROR provides compatible Amsterdam coordinates."
+    },
+    "finder-2368": {
+      "match": {
+        "provider": "Te Herenga Waka—Victoria University of Wellington",
+        "title": "Victoria University of Wellington Postgraduate International Scholarship 2027"
+      },
+      "evidence_url": "https://www.wgtn.ac.nz/scholarships/current/vuw-postgraduate-international-scholarship",
+      "hosts": [
+        "Victoria University of Wellington"
+      ]
+    },
+    "finder-2526": {
+      "match": {
+        "provider": "IMD",
+        "title": "IMD MBA Scholarships"
+      },
+      "evidence_url": "https://imd.org/degree/mba/financing/imd-mba-scholarships",
+      "hosts": [
+        "International Institute for Management Development"
+      ]
+    },
+    "finder-2842": {
+      "match": {
+        "provider": "Nicolaus Copernicus University; University of Granada; University of Applied Sciences Upper Austria; Simon Kuznets Kharkiv National University of Economics (delivered at Nicolaus Copernicus University for the listed study path); Hassan II University of Casablanca",
+        "title": "Erasmus Mundus scholarship for the CLIDE (Intercultural Leadership in the Digital Era) programme"
+      },
+      "evidence_url": "https://clide.umk.pl/pages/home",
+      "hosts": [
+        "Nicolaus Copernicus University",
+        "University of Granada",
+        "University of Applied Sciences Upper Austria",
+        "University of Hassan II Casablanca"
+      ],
+      "note": "Simon Kuznets Kharkiv institution is explicitly delivered at Nicolaus Copernicus University for this source study path; do not substitute Kharkiv headquarters."
+    },
+    "finder-2850": {
+      "match": {
+        "provider": "Theatre SPACEs Erasmus Mundus consortium, coordinated by Western Norway University of Applied Sciences",
+        "title": "Theatre SPACEs Erasmus Mundus scholarship — Master in Applied & Community Theatre"
+      },
+      "evidence_url": "https://www.theatre-spaces.eu/",
+      "hosts": [
+        "Western Norway University of Applied Sciences",
+        "Trinity College Dublin",
+        "University of Arts from Târgu-Mureș",
+        "University of Hamburg"
+      ],
+      "note": "Official consortium also names associated Academy of Performing Arts Prague, outside the saved destination list; country correction requires review."
+    },
+    "finder-2851": {
+      "match": {
+        "provider": "Partner universities, including NUI Galway; Charité – Universitätsmedizin Berlin; University of Bordeaux; University of Coimbra; University of Göttingen; and Université Laval.",
+        "title": "Neurasmus Erasmus Mundus Joint Master (EMJM) Scholarship - Cohort 2027-2029"
+      },
+      "evidence_url": "https://www.neurasmus.u-bordeaux.fr/",
+      "hosts": [
+        "University of Galway",
+        "Charité – Universitätsmedizin Berlin",
+        "University of Bordeaux",
+        "University of Coimbra",
+        "University of Göttingen",
+        "Université Laval"
+      ]
+    },
+    "finder-2859": {
+      "match": {
+        "provider": "EMLDS consortium coordinated by NOVA University Lisbon",
+        "title": "European Master in Linguistic Data Science (EMLDS): Erasmus Mundus Joint Master Scholarships, 2027-2029 cohort"
+      },
+      "evidence_url": "https://scholarship-finder.fly.dev/s/2859",
+      "hosts": [
+        "Universidade Nova de Lisboa"
+      ]
+    },
+    "finder-2861": {
+      "match": {
+        "provider": "University of Granada; University of Sheffield; University College Dublin – National University of Ireland; University of Liege; Jagiellonian University – Krakow; EHESP; University of Granada / EASP; Université de Bordeaux; Maastricht University",
+        "title": "Europubhealth+ Erasmus Mundus Scholarship 2027-2029 (European Public Health Master)"
+      },
+      "evidence_url": "https://www.europubhealth.org/",
+      "hosts": [
+        "University of Granada",
+        "University of Sheffield",
+        "University College Dublin",
+        "University of Liège",
+        "Jagiellonian University",
+        "EHESP",
+        "Andalusian School of Public Health",
+        "Université de Bordeaux",
+        "Maastricht University"
+      ]
+    },
+    "finder-2885": {
+      "match": {
+        "provider": "MIPDaL Consortium partner universities: TUD, TalTech, UC3M, UNISTRA/CEIPI, UoE, and QMUL",
+        "title": "Erasmus Mundus scholarship — Master in Intellectual Property and Data Law (MIPDaL)"
+      },
+      "evidence_url": "https://mipdal.eu/partner-unis/",
+      "hosts": [
+        "Technische Universität Dresden",
+        "Tallinn University of Technology",
+        "Universidad Carlos III de Madrid",
+        "Université de Strasbourg",
+        "University of Exeter",
+        "Queen Mary University of London"
+      ],
+      "note": "Official six-partner programme includes UK hosts; source countries omit GB, so those hosts remain unresolved pending a country correction."
+    },
+    "finder-2900": {
+      "match": {
+        "provider": "Instituto Superior Técnico (Portugal), IHE Delft (the Netherlands), and TU Dresden (Germany); thesis placement may also be at an associated partner.",
+        "title": "Erasmus Mundus Scholarships for the GroundwatCh Joint Master in Groundwater and Global Change (2027-2029 intake)"
+      },
+      "evidence_url": "https://www.groundwatermaster.eu/scholarships",
+      "hosts": [
+        "Instituto Superior Técnico",
+        "IHE Delft Institute for Water Education",
+        "Technische Universität Dresden"
+      ]
+    },
+    "finder-2903": {
+      "match": {
+        "provider": "University of Lorraine; Tor Vergata University of Rome; Istituto di Struttura della Materia; Jozef Stefan International Postgraduate School",
+        "title": "GREENANO Erasmus Mundus Joint Master (EMJM) Scholarships 2027"
+      },
+      "evidence_url": "https://www.greenanomaster.eu/fees-and-scholarships",
+      "hosts": [
+        "University of Lorraine",
+        "Tor Vergata University of Rome",
+        "Istituto di Struttura della Materia",
+        "Jožef Stefan International Postgraduate School"
+      ]
+    },
+    "finder-2905": {
+      "match": {
+        "provider": "Universitat Rovira i Virgili (coordinator), Université de Bordeaux, and Universidade do Porto",
+        "title": "Erasmus Mundus scholarships for WINTOUR (EMJM action)"
+      },
+      "evidence_url": "https://wintour-master.eu/en/apply/emjm-scholarships",
+      "hosts": [
+        "Universitat Rovira i Virgili",
+        "Université de Bordeaux",
+        "University of Porto"
+      ]
+    },
+    "finder-2910": {
+      "match": {
+        "provider": "The four partner universities, including UPF, RU, and UL; the fourth partner is not named in the supplied text.",
+        "title": "Erasmus Mundus joint Master in Artificial Intelligence (EMAI)"
+      },
+      "evidence_url": "https://www.upf.edu/web/emai/partner-universities",
+      "hosts": [
+        "Pompeu Fabra University",
+        "Radboud University",
+        "University of Ljubljana",
+        "Sapienza University of Rome"
+      ],
+      "note": "Official partner page expands UPF/RU/UL and names fourth partner Sapienza. Slovenia is absent from the saved destination list, so Ljubljana remains unresolved."
+    },
+    "finder-2948": {
+      "match": {
+        "provider": "Aix-Marseille University; INSTN; Université de Lorraine; Universidad Carlos III de Madrid; Universität Stuttgart; Czech Technical University; Universidad Complutense de Madrid; Ghent University",
+        "title": "FUSION-EP Erasmus Mundus Scholarships: European Master of Science in Nuclear Fusion and Engineering Physics"
+      },
+      "evidence_url": "https://em-master-fusion.org/programme",
+      "hosts": [
+        "Aix-Marseille University",
+        {
+          "name": "Institut national des sciences et techniques nucléaires",
+          "blocked_reason": "ambiguous_ror_identity",
+          "note": "Two active ROR identities share this name in France and Madagascar. The saved source countries are empty. Destinations inferred from other consortium hosts must never disambiguate this identity on a later pass; keep this host unresolved pending reviewed official identity evidence."
+        },
+        "Université de Lorraine",
+        "Universidad Carlos III de Madrid",
+        "Universität Stuttgart",
+        "Czech Technical University in Prague",
+        "Universidad Complutense de Madrid",
+        "Ghent University"
+      ]
+    },
+    "finder-2956": {
+      "match": {
+        "provider": "Montanuniversität Leoben (MUL); Università degli Studi di Padova (UNIPD); Saarland University (UdS); Luleå tekniska universitet (LTU); Université de Lorraine (UL); Universitat Politècnica de Catalunya BarcelonaTech (UPC)",
+        "title": "Erasmus Mundus scholarship — AMASE (Advanced Materials Science and Engineering) Joint Master"
+      },
+      "evidence_url": "https://www.eusmat.net/international-studies/master/amase/",
+      "hosts": [
+        "Montanuniversität Leoben",
+        "University of Padua",
+        "Saarland University",
+        "Luleå University of Technology",
+        "Université de Lorraine",
+        "Universitat Politècnica de Catalunya"
+      ]
+    },
+    "finder-3527": {
+      "match": {
+        "provider": "INSAIT; Sofia University is the degree-issuing institution. Students primarily supervised by an external adviser may also visit that adviser’s institution.",
+        "title": "INSAIT Doctoral Fellowship (PhD at INSAIT)"
+      },
+      "evidence_url": "https://insait.ai/phd/",
+      "hosts": [
+        "Sofia University"
+      ],
+      "note": "Official programme identifies INSAIT as part of Sofia University and locates it in Sofia; unspecified visits to external advisors do not establish extra study destinations."
+    },
+    "finder-3617": {
+      "match": {
+        "provider": "Central European University Private University (CEU PU); International Institute of Social Studies of Erasmus University Rotterdam (ISS); Institut Barcelona d’Estudis Internacionals (IBEI); University of York",
+        "title": "Mundus MAPP Erasmus Mundus Joint Masters (EMJM) Scholarship 2027-2029 (Master's in Public Policy)"
+      },
+      "evidence_url": "https://www.mundusmapp.org/financial-aid/",
+      "hosts": [
+        {
+          "name": "Central European University",
+          "city": "Vienna"
+        },
+        "International Institute of Social Studies",
+        "Institut Barcelona d’Estudis Internacionals",
+        "University of York"
+      ]
+    },
+    "finder-3719": {
+      "match": {
+        "provider": "Wadhwani School of Data Science and Artificial Intelligence (WSAI), IIT Madras",
+        "title": "WSAI Post Bacc Fellowship Program 2026"
+      },
+      "evidence_url": "https://wsai.iitm.ac.in/fellowships",
+      "hosts": [
+        "Indian Institute of Technology Madras"
+      ]
+    },
+    "finder-4214": {
+      "match": {
+        "provider": "Stanford’s Walter H. Shorenstein Asia-Pacific Research Center (APARC)",
+        "title": "Stanford APARC Asia Health Policy Program Postdoctoral Fellowship 2027-2028"
+      },
+      "evidence_url": "https://aparc.fsi.stanford.edu/news/stanfords-asia-pacific-research-center-invites-applications-2027-2029-postdoctoral-and",
+      "hosts": [
+        "Stanford University"
+      ]
+    },
+    "finder-4215": {
+      "match": {
+        "provider": "Stanford University’s APARC or the National University of Singapore (NUS), depending on the appointment",
+        "title": "2027–2028 Lee Kong Chian NUS-Stanford Fellowship on Southeast Asia"
+      },
+      "evidence_url": "https://aparc.fsi.stanford.edu/education/fellowship-and-training-opportunities/nus-stanford-fellowship-southeast-asia",
+      "hosts": [
+        "Stanford University",
+        "National University of Singapore"
+      ]
+    },
+    "finder-4244": {
+      "match": {
+        "provider": "Leibniz Centre for Contemporary History Potsdam (ZZF)",
+        "title": "Leibniz Summer Fellowships"
+      },
+      "evidence_url": "https://zzf-potsdam.de/chancen/stellenangebote/leibniz-summer-fellowships-field-german-andor-european-including-eastern",
+      "hosts": [
+        "Leibniz Centre for Contemporary History"
+      ]
+    },
+    "finder-4756": {
+      "match": {
+        "provider": "DHBW Center for Advanced Studies; DHBW Heilbronn (Baden-Württemberg Cooperative State University); Ferdinand-Steinbeis-Institute; Fraunhofer HNFIZ; Heilbronn University of Applied Sciences (HHN); Technical University of Munich (TUM) Campus Heilbronn",
+        "title": "DAAD Heilbronn AI Fellowships"
+      },
+      "evidence_url": "https://cs.cit.tum.de/fileadmin/w00cfj/seai/_my_direct_uploads/DAAD_Heilbronn_AI_Fellowships.pdf",
+      "hosts": [
+        {
+          "name": "Baden-Wuerttemberg Cooperative State University",
+          "city": "Heilbronn"
+        },
+        {
+          "name": "Ferdinand-Steinbeis-Institut",
+          "city": "Heilbronn"
+        },
+        "Fraunhofer HNFIZ",
+        {
+          "name": "Heilbronn University",
+          "city": "Heilbronn"
+        },
+        {
+          "name": "Technical University of Munich",
+          "city": "Heilbronn"
+        }
+      ],
+      "note": "Heilbronn programme: ROR HQ in Stuttgart or Munich cannot represent this study location; only compatible ROR Heilbronn coordinates may be used."
+    },
+    "finder-4802": {
+      "match": {
+        "provider": "Fairleigh Dickinson University (FDU), Metropolitan campus",
+        "title": "Fairleigh Dickinson University (FDU) Athletic Scholarships"
+      },
+      "evidence_url": "https://fdu.edu/admissions/international/scholarships",
+      "hosts": [
+        {
+          "name": "Fairleigh Dickinson University",
+          "city": "Teaneck"
+        }
+      ],
+      "note": "Source explicitly identifies Metropolitan campus; constrain the ROR city to Teaneck, never label campus precision."
+    },
+    "finder-4823": {
+      "match": {
+        "provider": "Technical University of Delft (TU Delft)",
+        "title": "Justus & Louise van Effen Excellence Scholarships at TU Delft"
+      },
+      "evidence_url": "https://scholarship-finder.fly.dev/s/4823",
+      "hosts": [
+        "Delft University of Technology"
+      ]
+    },
+    "finder-4977": {
+      "match": {
+        "provider": "University of Jyväskylä; Katholieke Universiteit Leuven; Universiteit Gent; Vrije Universiteit Brussel; University Jean Monnet; University of Montpellier",
+        "title": "RADMEP+ Erasmus Mundus Joint Master Scholarships 2027-2029 (Radiation, Microelectronics and Photonics)"
+      },
+      "evidence_url": "https://master-radmep.org/scholarships/",
+      "hosts": [
+        "University of Jyväskylä",
+        "KU Leuven",
+        "Ghent University",
+        "Vrije Universiteit Brussel",
+        "Université Jean Monnet",
+        "University of Montpellier"
+      ]
+    },
+    "finder-5374": {
+      "match": {
+        "provider": "London School of Economics and Political Science (LSE), LSE Law School",
+        "title": "LSE PhD Studentships for the MPhil/PhD Law, 2027/28 entry (London School of Economics and Political Science)"
+      },
+      "evidence_url": "https://www.lse.ac.uk/study-at-lse/graduate/mphilphd-law",
+      "hosts": [
+        "London School of Economics and Political Science"
+      ]
+    },
+    "finder-5409": {
+      "match": {
+        "provider": "Rutgers University’s School of Arts and Sciences-Newark (SASN)",
+        "title": "Rutgers University Global Urban Studies PhD (Fall 2027)"
+      },
+      "evidence_url": "https://sasn.rutgers.edu/gus-applying-gus",
+      "hosts": [
+        {
+          "name": "Rutgers University-Newark",
+          "city": "Newark"
+        }
+      ],
+      "note": "Newark programme cannot be represented by Rutgers New Brunswick HQ."
+    },
+    "finder-5413": {
+      "match": {
+        "provider": "Bonn Center for Dependency and Slavery Studies (BCDSS)",
+        "title": "BCDSS Heinz Heinen Fellowships 2027/2028 (University of Bonn)"
+      },
+      "evidence_url": "https://www.dependency.uni-bonn.de/en/fellowship-programs/heinz-heinen-fellowship-program",
+      "hosts": [
+        "University of Bonn"
+      ]
+    },
+    "finder-5518": {
+      "match": {
+        "provider": "Duke University, Program in American Grand Strategy (AGS); Johns Hopkins University, Henry A. Kissinger Center for Global Affairs at SAIS; University of Texas at Austin, Clements Center for National Security",
+        "title": "AWC Postdoctoral Fellowship 2027–28"
+      },
+      "evidence_url": "https://awconsortium.org/opportunities/fellowships",
+      "hosts": [
+        "Duke University",
+        {
+          "name": "Johns Hopkins University School of Advanced International Studies",
+          "city": "Washington"
+        },
+        "University of Texas at Austin"
+      ],
+      "note": "Kissinger Center is at SAIS in Washington, not JHU Baltimore HQ. Require separate compatible ROR city; do not silently use parent university coordinates."
+    },
+    "finder-5530": {
+      "match": {
+        "provider": "TU Dresden (Germany), IHE Delft (Netherlands), Technical University of Catalonia (Spain), and University of Ljubljana (Slovenia)",
+        "title": "Erasmus Mundus Joint Master Scholarship in Flood Risk Management (FloodRisk), 2027 intake"
+      },
+      "evidence_url": "https://www.floodriskmaster.org/scholarships",
+      "hosts": [
+        "Technische Universität Dresden",
+        "IHE Delft Institute for Water Education",
+        "Universitat Politècnica de Catalunya",
+        "University of Ljubljana"
+      ]
+    },
+    "finder-5670": {
+      "match": {
+        "provider": "Swinburne, Hawthorn campus",
+        "title": "George Swinburne International Excellence Scholarship (2027 intakes)"
+      },
+      "evidence_url": "https://www.swinburne.edu.au/courses/scholarships/international-scholarships/",
+      "hosts": [
+        {
+          "name": "Swinburne University of Technology",
+          "city": "Melbourne"
+        }
+      ],
+      "note": "Official Swinburne student guide places Hawthorn in Melbourne. Only ROR Melbourne city precision is used; no campus point is asserted.",
+      "additional_evidence_url": "https://www.swinburne.edu.au/downloads/Swinburne_student_guide_2026.pdf"
+    },
+    "finder-5693": {
+      "match": {
+        "provider": "Kingston University; Royal Holloway, University of London; University of Kent; University of Reading; University of Surrey; University of Sussex",
+        "title": "SEDarc ESRC Doctoral Studentship Competition 2027-2028 (South East Doctoral Training Arc)"
+      },
+      "evidence_url": "https://sedarc.ac.uk/student-led-competition",
+      "hosts": [
+        "Kingston University",
+        "Royal Holloway University of London",
+        "University of Kent",
+        "University of Reading",
+        "University of Surrey",
+        "University of Sussex"
+      ],
+      "note": "Royal Holloway is the named host; University of London central administration is a different institution."
+    },
+    "finder-5703": {
+      "match": {
+        "provider": "Various departments of the University of Cambridge and the British Antarctic Survey",
+        "title": "University of Cambridge CREATES NERC Doctoral Landscape Award PhD Studentships, October 2027 entry"
+      },
+      "evidence_url": "https://nercdtp.esc.cam.ac.uk/prospective-students/how-apply-updated-2026-entry",
+      "hosts": [
+        "University of Cambridge",
+        "British Antarctic Survey"
+      ]
+    },
+    "finder-5798": {
+      "match": {
+        "provider": "NWSSDTP consortium: Universities of Keele, Lancashire, Lancaster, Liverpool and Manchester",
+        "title": "ESRC Studentship Competition"
+      },
+      "evidence_url": "https://nwssdtp.ac.uk/",
+      "hosts": [
+        "Keele University",
+        "University of Lancashire",
+        "Lancaster University",
+        "University of Liverpool",
+        "University of Manchester"
+      ]
+    },
+    "finder-5825": {
+      "match": {
+        "provider": "KU Leuven & UGent",
+        "title": "Master of Science in Food Technology"
+      },
+      "evidence_url": "https://vliruos.be/get-funded/master-science-food-technology",
+      "hosts": [
+        "KU Leuven",
+        "Ghent University"
+      ]
+    },
+    "finder-5826": {
+      "match": {
+        "provider": "VUB, UGent & UAntwerpen",
+        "title": "Master of Science in Marine and Lacustrine Science and Management ('Oceans & Lakes')"
+      },
+      "evidence_url": "https://www.oceansandlakes.be/",
+      "hosts": [
+        "Vrije Universiteit Brussel",
+        "Ghent University",
+        "University of Antwerp"
+      ]
+    },
+    "finder-5827": {
+      "match": {
+        "provider": "UHasselt",
+        "title": "Master of Science in Transportation Sciences - Road Safety"
+      },
+      "evidence_url": "https://www.uhasselt.be/Master-in-Transportation-Sciences",
+      "hosts": [
+        "Hasselt University"
+      ]
+    },
+    "finder-5828": {
+      "match": {
+        "provider": "UGent",
+        "title": "Master of Science in Nutrition and Food Systems"
+      },
+      "evidence_url": "https://vliruos.be/get-funded/master-science-nutrition-and-food-systems",
+      "hosts": [
+        "Ghent University"
+      ]
+    },
+    "finder-5829": {
+      "match": {
+        "provider": "Ghent University or VUB",
+        "title": "Master of Science in Sustainable Land Management"
+      },
+      "evidence_url": "https://vliruos.be/get-funded/master-science-sustainable-land-management",
+      "hosts": [
+        "Ghent University",
+        "Vrije Universiteit Brussel"
+      ]
+    },
+    "finder-5830": {
+      "match": {
+        "provider": "VUB",
+        "title": "Master of Science in Tropical Biodiversity and Ecosystems (Mundus tropicalis c/o TROPIMUNDO)"
+      },
+      "evidence_url": "https://vliruos.be/get-funded/master-science-tropical-biodiversity-and-ecosystems-mundus-tropicalis-co-tropimundo",
+      "hosts": [
+        "Vrije Universiteit Brussel"
+      ]
+    },
+    "finder-5831": {
+      "match": {
+        "provider": "University of Antwerp’s Institute of Development Policy (IOB)",
+        "title": "Master of Science in Development Evaluation and Management"
+      },
+      "evidence_url": "https://vliruos.be/get-funded/master-development-evaluation-and-management",
+      "hosts": [
+        "University of Antwerp"
+      ]
+    },
+    "finder-5895": {
+      "match": {
+        "provider": "Universidad Rey Juan Carlos; Bangor University; Universidad Autónoma de Tlaxcala; Universidade de Lisboa; Associated Partners",
+        "title": "GLOBE Erasmus Mundus Joint Master in Global Change Ecology and Biodiversity Management"
+      },
+      "evidence_url": "https://scholarship-finder.fly.dev/s/5895",
+      "hosts": [
+        "Universidad Rey Juan Carlos",
+        "Bangor University",
+        "Universidad Autónoma de Tlaxcala",
+        "University of Lisbon"
+      ]
+    },
+    "finder-990": {
+      "match": {
+        "provider": "St Matthew's University School of Veterinary Medicine",
+        "title": "St. Matthew's University DVM International Scholarship"
+      },
+      "evidence_url": "https://scholarship-finder.fly.dev/s/990",
+      "hosts": [
+        "St. Matthew's University"
+      ]
+    },
+    "iefa-1097": {
+      "match": {
+        "provider": "Brandeis University-International Business School",
+        "title": "Brandeis University DeansPrize Scholarship"
+      },
+      "evidence_url": "https://www.iefa.org/scholarships/1097/Brandeis_University_Deans_Prize_Scholarship",
+      "hosts": [
+        "Brandeis University"
+      ]
+    },
+    "iefa-3684": {
+      "match": {
+        "provider": "Zukunftskolleg (IAS) of the University Konstanz",
+        "title": "ZUKOnnect Fellowships forScholars from Africa, Asia and Latin America"
+      },
+      "evidence_url": "https://www.iefa.org/scholarships/3684/_ZUKOnnect_Fellowships_for_Scholars_from_Africa,_Asia_and_Latin_America",
+      "hosts": [
+        "University of Konstanz"
+      ]
+    },
+    "iefa-3739": {
+      "match": {
+        "provider": "Zukunftskolleg (IAS) of the University Konstanz",
+        "title": "ZUKOnnect Fellowships for early career researchersfrom Africa, Asia and Latin A"
+      },
+      "evidence_url": "https://www.iefa.org/scholarships/3739/ZUKOnnect_Fellowships_for_early_career_researchers_from_Africa,_Asia_and_Latin_A",
+      "hosts": [
+        "University of Konstanz"
+      ]
+    },
+    "iefa-3659": {
+      "match": {
+        "provider": "Rule of Law for Development Program (PROLAW)",
+        "title": "Rule ofLaw Scholarship"
+      },
+      "evidence_url": "https://www.iefa.org/scholarships/3659/Rule_of_Law_Scholarship",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "A named programme campus or online/partner delivery cannot be inferred from the institution headquarters."
+    },
+    "iefa-3660": {
+      "match": {
+        "provider": "Loyola University Chicago School of Law",
+        "title": "Paul D. CoverdellFellowship"
+      },
+      "evidence_url": "https://www.iefa.org/scholarships/3660/Paul_D._Coverdell_Fellowship",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "A named programme campus or online/partner delivery cannot be inferred from the institution headquarters."
+    },
+    "iefa-3702": {
+      "match": {
+        "provider": "Luiss Business School in Amsterdam",
+        "title": "Six Scholarship for exclusive SpaceExecutive Master Programmes"
+      },
+      "evidence_url": "https://www.iefa.org/scholarships/3702/_Six_Scholarship_for_exclusive_Space_Executive_Master_Programmes_",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "A named programme campus or online/partner delivery cannot be inferred from the institution headquarters."
+    },
+    "iefa-3720": {
+      "match": {
+        "provider": "LUISS Business School in Amsterdam",
+        "title": "Master Scholarships in FashionFood and Business"
+      },
+      "evidence_url": "https://www.iefa.org/scholarships/3720/Master_Scholarships_in_Fashion_Food_and_Business",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "A named programme campus or online/partner delivery cannot be inferred from the institution headquarters."
+    },
+    "finder-5822": {
+      "match": {
+        "provider": "VIVES Noord",
+        "title": "Bachelor of Hotel Management"
+      },
+      "evidence_url": "https://vliruos.be/get-funded/bachelor-hotel-management",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "A named programme campus or online/partner delivery cannot be inferred from the institution headquarters."
+    },
+    "finder-5823": {
+      "match": {
+        "provider": "Thomas More campus Geel",
+        "title": "Bachelor of Applied Computer Science"
+      },
+      "evidence_url": "https://vliruos.be/get-funded/bachelor-applied-computer-science",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "A named programme campus or online/partner delivery cannot be inferred from the institution headquarters."
+    },
+    "finder-933": {
+      "match": {
+        "provider": "Unicaf University and partner universities",
+        "title": "Unicaf Scholarship Programme"
+      },
+      "evidence_url": "https://scholarship-finder.fly.dev/s/933",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "A named programme campus or online/partner delivery cannot be inferred from the institution headquarters."
+    },
+    "scholarpal-22b11a29ca8639c211d245ec": {
+      "match": {
+        "provider": "University of Hertfordshire",
+        "title": "University of Hertfordshire — Cost & Aid Tuition Waivers Graduate Assistantships Awards, Scholarships and Fellowships Outstanding Thesis Award Outstanding Dissertatio"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/university-of-hertfordshire-cost-aid-tuition-waivers-graduate-assistantships-awards-scholarships-and-fellowships-outstanding-thesis-award-outstanding-dissertatio",
+      "blocked_reason": "source_identity_conflict",
+      "note": "Provider names Hertfordshire, saved destination is US, and linked funding text is contradictory. Requires official programme identity evidence."
+    },
+    "scholarpal-1d075bd8213e46ad0655825b": {
+      "match": {
+        "provider": "",
+        "title": "Griffith University Scholarship For International Students With Tuition Fee Reduction Australia"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/griffith-university-scholarship-2027-for-international-students-with-a-50-tuition-fee-reduction-in-australia",
+      "blocked_reason": "source_identity_conflict",
+      "note": "Griffith/Australia title contradicts US destination. No automatic destination correction."
+    },
+    "scholarpal-06b303eaaa252f9cf169fd66": {
+      "match": {
+        "provider": "",
+        "title": "Birzeit University – External Scholarships Portal"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/birzeit-university-external-scholarships-portal",
+      "blocked_reason": "scholarship_portal_not_study_host",
+      "note": "The saved source identifies financial aid and external scholarship matching for Palestinian students. It establishes a portal or administrator, not a Birzeit study host."
+    },
+    "scholarpal-1542b44378f100748e8ba88b": {
+      "match": {
+        "provider": "MEXT University Recommendation Scholarship",
+        "title": "MEXT University Recommendation Scholarship — Ritsumeikan Asia Pacific University (graduate, September 2027)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/mext-university-recommendation-scholarship-ritsumeikan-asia-pacific-university-graduate-september-2027",
+      "hosts": [
+        "Ritsumeikan Asia Pacific University"
+      ]
+    },
+    "scholarpal-1dabc6ded5d9457dbd6556c9": {
+      "match": {
+        "provider": "",
+        "title": "ETH Zurich Excellence Scholarship & Opportunity Programme (ESOP)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/eth-zurich-excellence-scholarship-opportunity-programme-esop",
+      "hosts": [
+        "ETH Zurich"
+      ]
+    },
+    "scholarpal-1eb60f787adb0187de51b950": {
+      "match": {
+        "provider": "",
+        "title": "Émile Boutmy Scholarship (Sciences Po)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/emile-boutmy-scholarship-sciences-po",
+      "hosts": [
+        "Sciences Po"
+      ]
+    },
+    "scholarpal-4d3da9a8882801fbd1537e35": {
+      "match": {
+        "provider": "",
+        "title": "CIHEAM Bari Master's Programmes Scholarships (agriculture, water, food systems)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/ciheam-bari-masters-programmes-scholarships-agriculture-water-food-systems",
+      "hosts": [
+        "Mediterranean Agronomic Institute of Bari"
+      ]
+    },
+    "scholarpal-731c6667f9120c857201abed": {
+      "match": {
+        "provider": "",
+        "title": "Strathclyde Business School International Masters Scholarship, January 2027 (£7,000 to £9,000)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/strathclyde-business-school-international-masters-scholarship-january-2027-7000-to-9000",
+      "hosts": [
+        "University of Strathclyde"
+      ]
+    },
+    "scholarpal-7a3bdd8cd75638560f35b0b8": {
+      "match": {
+        "provider": "",
+        "title": "Sabancı University graduate funding for Spring 2027 entry (with-thesis Master's and PhD, Engineering and Natural Sciences)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/sabanci-university-graduate-funding-for-spring-2027-entry-with-thesis-masters-and-phd-engineering-and-natural-sciences",
+      "hosts": [
+        "Sabancı University"
+      ]
+    },
+    "scholarpal-7bc09e17011a59b2512d5d82": {
+      "match": {
+        "provider": "",
+        "title": "University of Westminster International Postgraduate Excellence Award, January 2027 entry (£3,000)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/university-of-westminster-international-postgraduate-excellence-award-january-2027-entry-3000",
+      "hosts": [
+        "University of Westminster"
+      ]
+    },
+    "scholarpal-97c4ab70ae6a5234809c8a13": {
+      "match": {
+        "provider": "",
+        "title": "University of Strathclyde Faculty of Science International Masters Scholarship, January 2027 intake (£6,000, computer science)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/university-of-strathclyde-faculty-of-science-international-masters-scholarship-january-2027-intake-6000-computer-science",
+      "hosts": [
+        "University of Strathclyde"
+      ]
+    },
+    "scholarpal-a61f6090c3e40879e8aa0f11": {
+      "match": {
+        "provider": "",
+        "title": "University of Strathclyde Faculty of Engineering International Scholarship for Masters Study, January 2027 (£6,000)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/university-of-strathclyde-faculty-of-engineering-international-scholarship-for-masters-study-january-2027-6000",
+      "hosts": [
+        "University of Strathclyde"
+      ]
+    },
+    "scholarpal-ca34e2238580250aab0920b8": {
+      "match": {
+        "provider": "",
+        "title": "CIHEAM Chania (MAICh) full scholarships for two-year MSc programmes (agriculture, food, environment)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/ciheam-chania-maich-full-scholarships-for-two-year-msc-programmes-agriculture-food-environment",
+      "hosts": [
+        "Mediterranean Agronomic Institute of Chania"
+      ]
+    },
+    "scholarpal-ea19501354febcd9f052b1eb": {
+      "match": {
+        "provider": "",
+        "title": "Anne van den Ban Fund scholarship at Wageningen University (MSc, students from eligible developing countries incl. Palestine, Syria, Yemen, Egypt, Lebanon, Sudan)"
+      },
+      "evidence_url": "https://scholarpal.io/scholarships/anne-van-den-ban-fund-scholarship-at-wageningen-university-msc-students-from-eligible-developing-countries-incl-palestine-syria-yemen-egypt-lebanon-sudan",
+      "hosts": [
+        "Wageningen University & Research"
+      ]
+    },
+    "finder-2891": {
+      "match": {"provider": "PlantHealth Consortium (coordinated by Universitat Politècnica de València)"},
+      "evidence_url": "https://planthealth.upv.es/web/apply/application-procedure/",
+      "hosts": ["Universitat Politècnica de València"]
+    },
+    "finder-2928": {
+      "match": {"provider": "Universidad de Cantabria; IHE Delft; University of Algarve"},
+      "evidence_url": "https://www.coasthazar.eu/",
+      "hosts": ["Universidad de Cantabria", "IHE Delft Institute for Water Education", "University of Algarve"]
+    },
+    "iefa-3672": {
+      "match": {"provider": "Fundação de Amparo à Pesquisa do estado de São Paulo - FAPESP", "title": "Post Doctoral AnthropologyFellowship"},
+      "evidence_url": "https://www.iefa.org/scholarships/3672/Post_Doctoral_Anthropology_Fellowship",
+      "additional_evidence_url": "https://pagu.unicamp.br/",
+      "hosts": ["University of Campinas"],
+      "note": "Saved source explicitly names PAGU-UNICAMP as host unit. FAPESP is the development agency, not the university host; fieldwork in São Paulo does not establish a donor HQ study location."
+    },
+    "iefa-3673": {
+      "match": {"provider": "Shield Your Body", "title": "Health Safety and EducationScholarship"},
+      "evidence_url": "https://www.iefa.org/scholarships/3673/Health_Safety_and_Education_Scholarship",
+      "hosts": ["Building Biology Institute"],
+      "note": "The training institute is explicitly named in the saved description. An unrelated donor or organization with a similar name must not provide coordinates."
+    },
+    "iefa-3727": {
+      "match": {"provider": "Andrew W. Mellon Foundation", "title": "Andrew W. Mellon Foundation Turningthe Tide Masters Scholarship"},
+      "evidence_url": "https://www.iefa.org/scholarships/3727/Andrew_W._Mellon_Foundation_Turning_the_Tide_Masters_Scholarship",
+      "hosts": ["Stellenbosch University"],
+      "note": "Saved description explicitly requires applying to study at Stellenbosch; the foundation is the funder."
+    },
+    "scholarpal-3f393ad2bc40ae6dad2263af": {
+      "match": {"provider": "", "title": "ANSO-CAS-TWAS/UNESCO PhD Scholarship (China)"},
+      "evidence_url": "https://www.anso.org.cn/programmes/talent/scholarship/",
+      "hosts": ["University of Science and Technology of China", "University of Chinese Academy of Sciences"],
+      "note": "Both PhD hosts are explicitly named in the saved description; other CAS institutes remain unspecified."
+    },
+    "scholarpal-9c718c1d50ab7ded426ebfd0": {
+      "match": {"provider": "", "title": "Welfare Association (Taawon) Higher Education Scholarships"},
+      "evidence_url": "https://www.taawon.org/",
+      "blocked_reason": "online_programme_no_physical_study_location",
+      "note": "Saved description names Gaza universities for distance learning; no physical study campus is established."
+    },
+    "scholars4dev-28789": {
+      "match": {"provider": "Politecnico di Milano"},
+      "evidence_url": "https://www.polimi.it/",
+      "hosts": ["Politecnico di Milano"]
+    },
+    "iefa-3708": {
+      "match": {"provider": "Lite Regal Education & Int College"},
+      "evidence_url": "https://www.iefa.org/scholarships/3708/Summer_School_Scholarships_in_Cambridge_and_London_University",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "University names appear as summer school college venues; exact host college and official programme venue require evidence."
+    },
+    "iefa-3709": {
+      "match": {"provider": "Lite Regal Education and Int College"},
+      "evidence_url": "https://www.iefa.org/scholarships/3709/Business_and_Entrepreneurship_Summer_Course_Scholarship_Award_in_the_UK",
+      "blocked_reason": "programme_campus_requires_review",
+      "note": "University names appear as summer school college venues; exact host college and official programme venue require evidence."
+    },
+    "iefa-3687": {
+      "match": {"provider": "Centro Einaudi"},
+      "evidence_url": "https://www.iefa.org/scholarships/3687/Giorgio_Rota_Best_Paper_Award_-_Urban_economies_as_complex_systems",
+      "blocked_reason": "named_university_is_collaborator_not_study_host",
+      "note": "University of Turin departments collaborate on a paper prize; the saved source does not establish a university study location."
+    },
+    "finder-5373": {
+      "match": {"provider": "Max Planck School of Cognition"},
+      "evidence_url": "https://cognition.maxplanckschools.org/en",
+      "blocked_reason": "distributed_research_network_requires_host_choice",
+      "note": "Official school has no classical campus; coordinator Leipzig office does not establish a study host."
+    },
+    "scholars4dev-7085": {
+      "match": {
+        "source_id": "scholars4dev",
+        "provider": "American University",
+        "title": "American University Emerging Global Leader Scholarship"
+      },
+      "evidence_url": "https://www.american.edu/admissions/international/au-egls-apply.cfm",
+      "additional_evidence_url": "https://ror.org/052w4zt36",
+      "hosts": [
+        {
+          "name": "American University",
+          "ror_id": "https://ror.org/052w4zt36",
+          "city": "Washington"
+        }
+      ],
+      "note": "The official AU scholarship page identifies American University in Washington, DC. Resolve this reviewed ROR identity directly for fresh source records; broad American University name searches are incomplete and must not select unrelated institutions. Exact ROR name, source destination country, and Washington city constraints still apply."
+    },
+    "scholars4dev-2043": {
+      "match": {
+        "provider": "Gates Cambridge Trust",
+        "title": "Gates Cambridge Scholarships for International Students"
+      },
+      "evidence_url": "https://www.gatescambridge.org/",
+      "hosts": [
+        "University of Cambridge"
+      ]
+    }
+  }
+}
